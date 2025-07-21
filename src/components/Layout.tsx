@@ -46,7 +46,15 @@ const Layout = ({ children }: LayoutProps) => {
         </div>
       );
     }
-    return <span className="text-lg font-medium text-foreground">Tender Opportunities</span>;
+    return (
+      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+        <span>Search</span>
+        <span>&gt;</span>
+        <span>Tender</span>
+        <span>&gt;</span>
+        <span className="text-foreground">Results</span>
+      </div>
+    );
   };
 
   return (
