@@ -182,14 +182,6 @@ const TenderListings = () => {
             </Button>
           </div>
 
-          {/* Breadcrumb */}
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>Search</span>
-            <span>&gt;</span>
-            <span>Tenders</span>
-            <span>&gt;</span>
-            <span className="text-foreground">Results</span>
-          </div>
 
           {/* Search Results Header */}
           <div className="bg-orange-50 border border-orange-100 rounded-lg p-4">
